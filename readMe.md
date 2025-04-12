@@ -1,76 +1,66 @@
-# My Portfolio Webpage
+# My Portfolio Site
 
-# My Portfolio Webpage
+Welcome to my personal portfolio website! This site showcases my skills, projects, and experiences as a Computer Science major and aspiring web developer.
 
-## Description
+## Table of Contents
 
-[Provide a brief description of your portfolio website here. What is its purpose? Who is it for? What does it showcase?]
+- [About](#about)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup Instructions](#setup-instructions)
+- [Contact](#contact)
+
+---
+
+## About
+
+This portfolio site is designed to highlight my journey as a web developer beginner. It includes sections for:
+
+- **Home**: A welcoming introduction.
+- **Projects**: A showcase of my work.
+- **Skills**: A breakdown of my technical expertise.
+- **About Me**: A brief introduction to who I am.
+- **Contact**: Links to connect with me.
 
 ## Features
 
-* **Project Showcase:** Displays a collection of my projects with descriptions, technologies used, and links (live demo/source code).
-* **About Me:** A section detailing my background, skills, and experience.
-* **Contact Form:** Allows visitors to send me messages directly.
-* **Responsive Design:** Adapts to different screen sizes (desktops, tablets, mobiles).
-* [Add any other specific features your portfolio has]
+- **Responsive Design**: Optimized for all screen sizes.
+- **Smooth Scrolling**: Enhanced user experience with smooth navigation.
+- **Interactive Elements**: Progress bars, badges, and more.
+- **Bootstrap Integration**: Leveraging Bootstrap for styling and layout.
 
 ## Technologies Used
 
-* **Frontend:** HTML, CSS, JavaScript [List specific frameworks/libraries like React, Vue, Angular, Bootstrap, Tailwind CSS, etc.]
-* **Backend (if applicable):** [e.g., Node.js, Express, Python, Django, PHP, etc.]
-* **Database (if applicable):** [e.g., MongoDB, PostgreSQL, MySQL, etc.]
-* **Deployment:** [e.g., Netlify, Vercel, GitHub Pages, Heroku, AWS, etc.]
-* [List any other tools or technologies used]
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- **Bootstrap**
+- **Google Fonts**
 
-## Getting Started (Optional - If others might run it locally)
-
-### Prerequisites
-
-* [List any software needed, e.g., Node.js, npm, Python, etc.]
-* [Link to installation guides if helpful]
-
-### Installation & Running Locally
+## Setup Instructions
 
 1. Clone the repository:
 
-    ```bash
-    git clone [your-repository-url]
-    ```
+   ```bash
+   git clone https://github.com/EJ-365/myPortfolioSite.git
+   ```
 
 2. Navigate to the project directory:
 
-    ```bash
-    cd myPortfolioSite
-    ```
+   ```bash
+   cd myPortfolioSite
+   ```
 
-3. Install dependencies:
+3. Open `index.html` in your browser to view the site.
 
-    ```bash
-    npm install
-    # or yarn install, pip install -r requirements.txt, etc.
-    ```
+## Contact
 
-4. Run the development server:
+Feel free to reach out to me:
 
-    ```bash
-    npm start
-    # or yarn dev, python manage.py runserver, etc.
-    ```
+- **Email**: [eebudonihia@gmail.com](mailto:eebudonihia@gmail.com)
+- **GitHub**: [EJ-365](https://github.com/EJ-365)
+- **LinkedIn**: [Ejeme Ebudonihian](https://www.linkedin.com/in/ejeme-ebudonihian-9073432ab/)
 
-5. Open your browser and navigate to `http://localhost:[port_number]`
+---
 
-## Usage
-
-Simply navigate to the deployed URL [Add your live portfolio URL here if available] to view the portfolio. Explore the different sections like "Projects", "About Me", and "Contact".
-
-## Contributing (Optional)
-
-[Add guidelines if you are open to contributions, otherwise state that contributions are not currently accepted or remove this section.]
-
-## License (Optional)
-
-[Specify the license for your project, e.g., MIT License. If unlicensed, you can state that or remove the section.]
-
-## Contact (Optional)
-
-[Provide ways for people to contact you, e.g., email address, LinkedIn profile link.]
+&copy; 2025 Ejay Gabriel. All rights reserved.
