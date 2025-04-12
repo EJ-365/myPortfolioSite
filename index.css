@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  /* Apply box-sizing to pseudo-elements as well */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Gruppo", sans-serif;/* Define your base font */
+}
+
+body {
+  min-height: 100vh; /* Ensure body takes full viewport height */
+  line-height: 1.5; /* Set a default line height */
+  -webkit-font-smoothing: antialiased; /* Improve font rendering on WebKit */
+}
+
+/* Example: Reset text-decoration specifically for links */
+a {
+
+  text-decoration: none;
+  color: inherit; /* Optional: make links inherit text color */
+}
+
+/* navbar */
+.navbar {
+  background-color: #0d0d0d;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.logo-img {
+  width: 100px;
+ 
+}
+
+.cta-cover{
+  background-image: url('portfolioPhotos/cta-cover.jpg');
+  background-size: cover;
+ 
+}
+  .cta-cover h1 {
+    position: relative;
+    z-index: 2; /* Ensure the text is above the overlay */
+  }
+ 
+body{
+    background-color: #A6A6A6;
+}
