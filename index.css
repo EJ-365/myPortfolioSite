@@ -14,12 +14,11 @@ body {
   min-height: 100vh; /* Ensure body takes full viewport height */
   line-height: 1.5; /* Set a default line height */
   -webkit-font-smoothing: antialiased; /* Improve font rendering on WebKit */
-  background-color: #D9D9D9 !important;
+  background-color: #d9d9d9 !important;
 }
 
 /* Example: Reset text-decoration specifically for links */
 a {
-
   text-decoration: none;
   color: inherit; /* Optional: make links inherit text color */
 }
@@ -34,53 +33,51 @@ a {
 
 .logo-img {
   width: 100px;
- 
 }
 
 /* call to action image basically the background image close to the navbar
 it was 2 image cover i deleted 1 that's why it says cover2 ignore that-- note this comment might update */
-.cta-cover{
-  background-image: url('portfolioPhotos/cta-cover2.jpg');
+.cta-cover {
+  background-image: url("portfolioPhotos/cta-cover2.jpg");
   background-size: cover;
   background-position: center;
- 
 }
 
 /* cta header */
-  .cta-cover h1 {
-    position: relative;
-    z-index: 2; /* Ensure the text is above the overlay */
-  }
- 
-  /* changing the main background and adding a black text color to it */ 
-  main{
-    background-color: #D9D9D9;
-    color:#0D0D0D;
-  }
+.cta-cover h1 {
+  position: relative;
+  z-index: 2; /* Ensure the text is above the overlay */
+}
 
-  /* making the navbar more presentable by adding some few stuff like hovering and underline*/
-  .navbar-nav a:hover{
-    color: #D9D9D9;
-    text-decoration: underline solid #D9D9D9;
-  }
+/* changing the main background and adding a black text color to it */
+main {
+  background-color: #d9d9d9;
+  color: #0d0d0d;
+}
 
-  /* changing the background color for the progress bar */
-  .progress-bar{
-    background-color:#595959;
-  }
+/* making the navbar more presentable by adding some few stuff like hovering and underline*/
+.navbar-nav a:hover {
+  color: #d9d9d9;
+  text-decoration: underline solid #d9d9d9;
+}
+
+/* changing the background color for the progress bar */
+.progress-bar {
+  background-color: #595959;
+}
 /* adding media query to the navbar so it will be center on the smaller screen */
-@media screen and (max-width:760px) {
-  .navbar-nav{
+@media screen and (max-width: 760px) {
+  .navbar-nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     align-content: center;
   }
 
   /* navbar <a> links */
-  .navbar-nav a:hover{
-    color: #D9D9D9;
-    text-decoration: underline solid #D9D9D9;
+  .navbar-nav a:hover {
+    color: #d9d9d9;
+    text-decoration: underline solid #d9d9d9;
   }
 }
