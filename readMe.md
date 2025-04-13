@@ -36,6 +36,7 @@ This portfolio site is designed to highlight my journey as a web developer begin
 - **JavaScript**
 - **Bootstrap**
 - **Google Fonts**
+- **Git/GitHub**
 
 ## Setup Instructions
 
