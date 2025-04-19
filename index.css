@@ -17,6 +17,10 @@ body {
   background-color: #d9d9d9 !important;
 }
 
+.profilePic{
+  width: 30px !important;
+  height: auto !important;
+}
 /* Example: Reset text-decoration specifically for links */
 a {
   text-decoration: none;
